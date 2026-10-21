@@ -1,0 +1,29 @@
+{
+  "name": "coding-agent",
+  "version": "1.0.0",
+  "description": "Terminal coding agent powered by Claude",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "node src/index.ts",
+    "typecheck": "tsc -p .",
+    "test": "node --test \"test/*.test.ts\""
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "type": "module",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.137.0",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "typescript": "^7.0.2"
+  },
+  "bin": {
+    "coding-agent": "bin/coding-agent.js"
+  },
+  "engines": {
+    "node": ">=23.6"
+  },
+  "private": true
+}

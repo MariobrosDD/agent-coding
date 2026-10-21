@@ -1,0 +1,3 @@
+# Keep LF line endings in the repository and working copy on every OS
+# (a CRLF shebang in bin/coding-agent.js breaks it on Linux and macOS).
+* text=auto eol=lf
